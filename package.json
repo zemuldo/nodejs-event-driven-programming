@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-event-driven-programming",
+  "version": "1.0.0",
+  "description": "Learn how to write event driven programs in JavaScript using Nodejs runtime environment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zemuldo/nodejs-event-driven-programming.git"
+  },
+  "keywords": [
+    "nodejs",
+    "event-driven",
+    "events",
+    "tcp",
+    "streams"
+  ],
+  "author": "Danstan Otieno ONyango ~ Zemuldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zemuldo/nodejs-event-driven-programming/issues"
+  },
+  "homepage": "https://github.com/zemuldo/nodejs-event-driven-programming#readme"
+}
