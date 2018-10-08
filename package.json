@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/zemuldo/nodejs-event-driven-programming/issues"
   },
-  "homepage": "https://github.com/zemuldo/nodejs-event-driven-programming#readme"
+  "homepage": "https://github.com/zemuldo/nodejs-event-driven-programming#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

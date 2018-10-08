@@ -12,9 +12,9 @@ server.on('connection', (socket) => {
         const code = data.toString().slice(0,3);
         switch (code) {
             case '404':
-                return socket.write(`Code ${code}: Not found, used when user request for a resource or page that does not exist.\n`);
+                return socket.write(`${code}: Not found, used when user request for a resource or page that does not exist.\n`);
             case '500':
-                return socket.write(`Code ${code}: Internal Server, used when web server has an unxpected error.\n`);
+                return socket.write(`${code}: Internal Server, used when web server has an unxpected error.\n`);
             default:
                 return socket.write(`I dont know about code "${code}" mate, or I am yet to learn about it \n`);
         }
