@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/zemuldo/nodejs-event-driven-programming#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.18.2"
   }
 }
